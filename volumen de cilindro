@@ -1,0 +1,19 @@
+Algoritmo cilindro_volumen
+	Definir n1, n2, n3, n4 como real
+	Escribir "Volumen de un Cilindro"
+	Escribir "----------------------"
+	Escribir "Hallaremos el volumen de un cilindro"
+	Escribir "Para ello debe ingresar dos valores "
+	Escribir "fórmula: PIxALTURAX(RADIO)²"
+	Escribir "Escribe el valor para altura"
+	leer n1
+	Escribir "3.14159265359 x ", n1, " x (RADIO)²"
+	Escribir"Escribe el valor del radio"
+	leer n2
+	Escribir "3.14159265359 x ", n1, " x (", n2, ")²"
+	n3=n2*n2
+	Escribir "3.14159265359 x ", n1, " x ", n3 
+	n4=3.14159265359*n1*n3
+	Escribir "El volumen del cilindro es: ", n4
+	Escribir "Gracias"
+FinAlgoritmo
