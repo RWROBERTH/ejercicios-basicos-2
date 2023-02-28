@@ -1,0 +1,17 @@
+Algoritmo conversion_dias
+	Definir n1, n2, n3, n4, n5 como real
+	Escribir "Converción de días"
+	Escribir "------------------"
+	Escribir "convertiremos los dias en horas, minutos, segundos"
+	Escribir "debe ingresar una cifra en dias"
+	leer n1
+	n2=n1*24
+	n3=n1*24*60
+	n4=n1*24*60*60
+	Borrar Pantalla
+	Escribir "Días: ", n1
+	Escribir "Días a Horas: ", n2
+	Escribir "Días a Minutos: ", n3
+	Escribir "Días a Segundos: ", n4
+	Escribir "Gracias"
+FinAlgoritmo
