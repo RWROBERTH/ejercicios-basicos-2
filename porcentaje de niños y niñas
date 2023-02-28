@@ -1,0 +1,13 @@
+Algoritmo porcentaje_niños_niñas
+	Definir niños, niñas Como Real
+	Escribir "Porcentaje de estudiantes"
+	Escribir "Escribe el numero de niños"
+	Leer niños
+	Escribir "Escribe el numero de niñas"
+	Leer niñas
+	total=niños+niñas
+	Escribir "El total de estudiantes es: ", total
+	Escribir "El porcentaje de niños es: ", (niños/total)*100, "%"
+	Escribir "El porcentaje de niñas es: ", (niñas/total)*100, "%"
+	Escribir "Gracias"
+	FinAlgoritmo
