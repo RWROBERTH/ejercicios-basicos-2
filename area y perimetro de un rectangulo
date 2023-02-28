@@ -1,0 +1,42 @@
+algoritmo Area_perimetro_rectangulo
+	definir n1, n2, n3, n4, n5, n6, n7, n8 como numerico
+	//Declarar variable donde se guardará la opción del menú elegida
+	definir opc, a, b como caracter
+	//Mostrar el menú por pantalla 
+	escribir "Menú"
+	escribir "----"
+	escribir "(1)Area "
+	escribir "(2)perímetro "
+	escribir "Elige una opción (1 - 2)......"
+	leer opc
+	Limpiar Pantalla
+	//Instrucciones a realizar segun la opcion elegida
+	segun opc Hacer
+		'1':
+			Escribir "Area"
+			Escribir "fórmula: base x altura" 
+			Escribir "escribe la base del rectangulo"
+			leer n1
+			Escribir n1, " x altura"
+			Escribir "escribe la altura del rectangulo "
+			leer n2
+			Escribir n1, " x ", n2
+			n3=n1*n2
+			Escribir "el área del rectángulo es: ", n3
+			Escribir "gracias"
+		'2':
+			Escribir "Perimetro"
+			Escribir "fórmula: (base x 2) + (2 x altura)"
+			Escribir "escribe la base del rectangulo"
+			leer n4
+			Escribir n4, " x 2 + 2 x altura"
+			Escribir "escribe la altura del rectangulo "
+			leer n5
+			Escribir n4, " x 2 + 2 x", n5
+			n6=2*n4
+			n7=2*n5
+			n8=n6+n7
+			Escribir "el perimetro del rectangulo es :", n8
+			Escribir "gracias"
+	FinSegun
+finalgoritmo
