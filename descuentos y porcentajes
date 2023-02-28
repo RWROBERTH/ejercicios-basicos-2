@@ -1,0 +1,89 @@
+Algoritmo descuentos_porcentaje
+	definir n1, n2, n3, n4 como numerico
+	//Declarar variable donde se guardará la opción del menú elegida
+	definir opc como caracter
+	//Mostrar el menú por pantalla 
+	escribir "Menú"
+	escribir "----"
+	escribir "Elige la opción del descuento del producto"
+	Escribir "(1-2-3-4-5-6-7-8-9-10) "
+	escribir "(1)Descuento del 5%"
+	escribir "(2)Descuento del 10%"
+	escribir "(3)Descuento del 15%"
+	escribir "(4)Descuento del 20%"
+	escribir "(5)Descuento del 25%"
+	escribir "(6)Descuento del 30%"
+	escribir "(7)Descuento del 35%"
+	escribir "(8)Descuento del 40%"
+	escribir "(9)Descuento del 45%"
+	escribir "(10)Descuento del 50%"
+	leer opc
+	Escribir "Escribe el precio del producto"
+	leer n1
+	Borrar Pantalla
+	//Instrucciones a realizar segun la opcion elegida
+	segun opc Hacer
+		'1':
+			Escribir "El descuento escogido es de 5%"
+			n2=n1*0.05
+			n3=n1-n2
+			Escribir "descuento es: ", n2
+			Escribir "precio del producto: ", n3
+		'2':
+			Escribir "El descuento escogido es de 10%"
+			n2=n1*0.10
+			n3=n1-n2
+			Escribir "descuento es: ", n2
+			Escribir "precio del producto: ", n3
+		'3':
+			Escribir "El descuento escogido es de 15%"
+			n2=n1*0.15
+			n3=n1-n2
+			Escribir "descuento es: ", n2
+			Escribir "precio del producto: ", n3	
+		'4':
+			Escribir "El descuento escogido es de 20%"
+			n2=n1*0.20
+			n3=n1-n2
+			Escribir "descuento es: ", n2
+			Escribir "precio del producto: ", n3
+		'5':
+			Escribir "El descuento escogido es de 25%"
+			n2=n1*0.25
+			n3=n1-n2
+			Escribir "descuento es: ", n2
+			Escribir "precio del producto: ", n3
+		'6':
+			Escribir "El descuento escogido es de 30%"
+			n2=n1*0.30
+			n3=n1-n2
+			Escribir "descuento es: ", n2
+			Escribir "precio del producto: ", n3
+		'7':
+			Escribir "El descuento escogido es de 35%"
+			n2=n1*0.35
+			n3=n1-n2
+			Escribir "descuento es: ", n2
+			Escribir "precio del producto: ", n3	
+		'8':
+			Escribir "El descuento escogido es de 40%"
+			n2=n1*0.40
+			n3=n1-n2
+			Escribir "descuento es: ", n2
+			Escribir "precio del producto: ", n3	
+		'9':
+			Escribir "El descuento escogido es de 45%"
+			n2=n1*0.45
+			n3=n1-n2
+			Escribir "descuento es: ", n2
+			Escribir "precio del producto: ", n3	
+		'10':
+			Escribir "El descuento escogido es de 50%"
+			n2=n1*0.50
+			n3=n1-n2
+			Escribir "descuento es: ", n2
+			Escribir "precio del producto: ", n3	
+	Escribir "gracias"		
+	FinSegun
+
+FinAlgoritmo
